@@ -1,0 +1,181 @@
+.screen {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.screen .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+}
+
+.screen .frame {
+  position: absolute;
+  width: 718px;
+  height: 227px;
+  top: 518px;
+  left: 361px;
+  border-radius: 40px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #ff0000;
+  background-image: url(./img/empty-highway-asphalt-road-beautiful-sky-51195-3950-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.screen .overlap-group {
+  width: 412px;
+  height: 26px;
+  top: 44px;
+  left: 153px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ff0000;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.screen .text-wrapper {
+  top: 3px;
+  left: 155px;
+  opacity: 0.3;
+  color: #000000;
+  font-size: 12px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap {
+  width: 412px;
+  height: 26px;
+  top: 99px;
+  left: 153px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #ff0000;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.screen .text-wrapper-2 {
+  top: 4px;
+  left: 183px;
+  opacity: 0.3;
+  color: #000000;
+  font-size: 12px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-2 {
+  width: 127px;
+  height: 38px;
+  top: 154px;
+  left: 296px;
+  position: absolute;
+  border-radius: 20px;
+}
+
+.screen .rectangle {
+  width: 127px;
+  height: 38px;
+  top: 0;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-left-width: 1px;
+  border-left-style: solid;
+  position: absolute;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-color: #ff0000;
+}
+
+.screen .text-wrapper-3 {
+  top: 6px;
+  left: 34px;
+  color: #ff0000;
+  font-size: 20px;
+  white-space: nowrap;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .component {
+  position: absolute;
+  width: 550px;
+  height: 178px;
+  top: 278px;
+  left: 445px;
+}
+
+.screen .text-wrapper-4 {
+  top: 119px;
+  left: 0;
+  color: #ff0000;
+  font-size: 48px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .text-wrapper-5 {
+  top: -1px;
+  left: 71px;
+  color: #ff0000;
+  font-size: 48px;
+  position: absolute;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.screen .overlap-group-wrapper {
+  position: absolute;
+  width: 58px;
+  height: 36px;
+  top: 11px;
+  left: 422px;
+}
+
+.screen .overlap-group-2 {
+  position: relative;
+  height: 36px;
+}
+
+.screen .rectangle-2 {
+  width: 58px;
+  height: 29px;
+  top: 3px;
+  border: 1px solid;
+  position: absolute;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-color: #ff0000;
+}
+
+.screen .exclude {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 11px;
+}

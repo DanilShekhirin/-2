@@ -1,0 +1,255 @@
+.screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.screen .frame-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1469px;
+}
+
+.screen .frame {
+    position: relative;
+    width: 1360px;
+    height: 1375px;
+    top: 40px;
+    left: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #ffffff;
+    background-image: url(./img/m11-1024x576-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.screen .overlap {
+    position: absolute;
+    width: 523px;
+    height: 323px;
+    top: 172px;
+    left: 30px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .kras {
+    position: absolute;
+    width: 490px;
+    height: 297px;
+    top: 12px;
+    left: 15px;
+    object-fit: cover;
+}
+
+.screen .overlap-group {
+    position: absolute;
+    width: 523px;
+    height: 323px;
+    top: 600px;
+    left: 29px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .img {
+    position: absolute;
+    width: 490px;
+    height: 297px;
+    top: 12px;
+    left: 16px;
+    object-fit: cover;
+}
+
+.screen .element-wrapper {
+    position: absolute;
+    width: 523px;
+    height: 323px;
+    top: 1038px;
+    left: 418px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .moskow-wrapper {
+    position: absolute;
+    width: 523px;
+    height: 323px;
+    top: 172px;
+    left: 808px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .novos-wrapper {
+    position: absolute;
+    width: 523px;
+    height: 323px;
+    top: 600px;
+    left: 807px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .div-wrapper {
+    position: absolute;
+    width: 402px;
+    height: 55px;
+    top: 20px;
+    left: 479px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .text-wrapper {
+    top: 6px;
+    left: 128px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .div {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    top: 95px;
+    left: 211px;
+    border-radius: 10px;
+}
+
+.screen .rectangle {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .text-wrapper-2 {
+    position: absolute;
+    top: 4px;
+    left: 46px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .overlap-2 {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    top: 523px;
+    left: 210px;
+    border-radius: 10px;
+}
+
+.screen .text-wrapper-3 {
+    position: absolute;
+    top: 4px;
+    left: 45px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .overlap-3 {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    top: 961px;
+    left: 599px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.screen .text-wrapper-4 {
+    top: 3px;
+    left: 31px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .overlap-4 {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    top: 95px;
+    left: 989px;
+    border-radius: 10px;
+}
+
+.screen .text-wrapper-5 {
+    position: absolute;
+    top: 4px;
+    left: 17px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .overlap-5 {
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    top: 523px;
+    left: 988px;
+    border-radius: 10px;
+}
+
+.screen .text-wrapper-6 {
+    position: absolute;
+    top: 4px;
+    left: 32px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.screen .line {
+    width: 1px;
+    height: 868px;
+    top: 76px;
+    left: 680px;
+    position: absolute;
+    object-fit: cover;
+}
+
+.screen .line-2 {
+    width: 1360px;
+    height: 1px;
+    top: 947px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+}
